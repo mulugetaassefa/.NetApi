@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiMongoDB", "WebApiMongoDB\WebApiMongoDB.csproj", "{540671C4-27B4-4EED-9483-D3578DC658F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiMongoDBApp.Server", "WebApiMongoDBApp\WebApiMongoDBApp.Server\WebApiMongoDBApp.Server.csproj", "{09CB8027-A841-478B-99E7-AD9672FFB16D}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "webapimongodbapp.client", "WebApiMongoDBApp\webapimongodbapp.client\webapimongodbapp.client.esproj", "{E3220066-2833-4BB0-B8C1-BE8465BF4B2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{540671C4-27B4-4EED-9483-D3578DC658F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540671C4-27B4-4EED-9483-D3578DC658F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540671C4-27B4-4EED-9483-D3578DC658F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540671C4-27B4-4EED-9483-D3578DC658F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09CB8027-A841-478B-99E7-AD9672FFB16D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09CB8027-A841-478B-99E7-AD9672FFB16D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09CB8027-A841-478B-99E7-AD9672FFB16D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09CB8027-A841-478B-99E7-AD9672FFB16D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3220066-2833-4BB0-B8C1-BE8465BF4B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3220066-2833-4BB0-B8C1-BE8465BF4B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3220066-2833-4BB0-B8C1-BE8465BF4B2E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E3220066-2833-4BB0-B8C1-BE8465BF4B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3220066-2833-4BB0-B8C1-BE8465BF4B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3220066-2833-4BB0-B8C1-BE8465BF4B2E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7ADC59D1-D4DE-4865-856A-4DC6164149B9}
+	EndGlobalSection
+EndGlobal
